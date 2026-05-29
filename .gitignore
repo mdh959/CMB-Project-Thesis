@@ -1,0 +1,29 @@
+# Julia build artefacts
+*.jl.cov
+Manifest.toml
+.CondaPkg/
+.venv/
+
+# Heavy simulation output files (regenerate from scripts)
+*.jld2
+TEMP/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# macOS metadata
+.DS_Store
+
+# Editor
+.vscode/
+
+# Data files (large, not committed)
+data/*.npz
+results/lensit/
+results/*.jld2
+
+# Keep committed key figures and table
+!results/fig*.pdf
+!results/fig*.png
+!results/snr_table.txt

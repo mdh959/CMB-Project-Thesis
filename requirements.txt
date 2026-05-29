@@ -1,0 +1,11 @@
+# Python dependencies for run_lensit_ul.py
+# Install via conda/mamba into a dedicated environment.
+#
+# LensIt must be installed from source:
+#   pip install git+https://github.com/carronj/LensIt
+#
+# Remaining packages are available from conda-forge:
+numpy>=1.24
+h5py>=3.8
+scipy>=1.10
+pyfftw>=0.13      # required by LensIt (ffs_alm_pyFFTW)
